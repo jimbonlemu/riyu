@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.0.0",
-        "riyu/framework": "dev-main"
+        "riyu/framework": "^1.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

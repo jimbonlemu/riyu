@@ -4,12 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfa85218423699985dca7320984b3f37",
-    "packages": [],
+    "content-hash": "b7e6f08628b4b2306f0104bebc8317d8",
+    "packages": [
+        {
+            "name": "riyu/framework",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lutfisobri/framework.git",
+                "reference": "349019cba105c11eeecec1d65298b45f266b84de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lutfisobri/framework/zipball/349019cba105c11eeecec1d65298b45f266b84de",
+                "reference": "349019cba105c11eeecec1d65298b45f266b84de",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riyu\\": "src/riyu"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kateruriyu",
+                    "email": "kateruriyu@gmail.com"
+                }
+            ],
+            "description": "Riyu Framework",
+            "keywords": [
+                "framework",
+                "riyu"
+            ],
+            "support": {
+                "issues": "https://github.com/lutfisobri/framework/issues",
+                "source": "https://github.com/lutfisobri/framework/tree/v1.0.0"
+            },
+            "time": "2022-12-19T01:58:51+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "riyu/framework": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
