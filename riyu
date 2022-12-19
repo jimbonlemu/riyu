@@ -1,0 +1,10 @@
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__.'/app/Config/config.php';
+require_once __DIR__.'/routes/web.php';
+require_once __DIR__.'/routes/api.php';
+
+use Riyu\Commands\cmd;
+
+new cmd($argv);

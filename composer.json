@@ -1,0 +1,23 @@
+{
+    "name": "riyu/riyu",
+    "description": "Simple Framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kateruriyu",
+            "email": "kateruriyu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.0",
+        "riyu/framework": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
