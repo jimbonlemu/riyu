@@ -2,9 +2,12 @@
 
 return [
     'app' => [
-        'debug' => false,
+        // if debug you can see the error
+        'debug' => true,
+        // if safety you can see all error
+        'safety' => true,
         'name' => 'Riyu',
-        'url' => 'http://localhost/framework',
+        'url' => 'http://localhost/riyu',
         'timezone' => 'Asia/Jakarta',
         'locale' => 'id_ID.utf8',
     ],
@@ -13,8 +16,8 @@ return [
         'driver' => 'mysql',
         'host' => 'localhost',
         'port' => 3306,
-        'dbname' => 'db_new_presensi',
-        'username' => 'lutfisobri',
+        'dbname' => 'riyu',
+        'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
 
@@ -27,4 +30,12 @@ return [
         //     PDO::ATTR_EMULATE_PREPARES => false,
         // ],
     ],
+
+    "directory" => __DIR__,
+
+    "view" => [
+        "path" => __DIR__ . "/../resources/views/",
+    ],
+
+    "path" => __DIR__ . "/"
 ];
