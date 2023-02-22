@@ -13,7 +13,6 @@ new Config;
 Config::load(__DIR__.'/../config.php');
 
 require_once __DIR__."/../app/Config/config.php";
-require_once __DIR__."/../src/Helpers/Events/Helper.php";
 require_once __DIR__.'/../routes/web.php';
 require_once __DIR__.'/../routes/api.php';
 require_once __DIR__."/../app/Config/Controller.php";
